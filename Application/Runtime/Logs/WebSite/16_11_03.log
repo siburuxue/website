@@ -1,0 +1,407 @@
+[ 2016-11-03T20:35:15+08:00 ] 127.0.0.1 /WebSite/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.038904s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.038964s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001149s ]
+
+[ 2016-11-03T20:35:15+08:00 ] 127.0.0.1 /WebSite/Login/lib/bootstrap/js/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+ERR: 非法操作:lib
+
+[ 2016-11-03T20:35:15+08:00 ] 127.0.0.1 /WebSite/Login/lib/bootstrap/js/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+ERR: 非法操作:lib
+
+[ 2016-11-03T20:35:18+08:00 ] 127.0.0.1 /WebSite/Login/loginsubmit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admin'  [ RunTime:0.0075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2016-11-03T20:35:21+08:00 ] 127.0.0.1 /WebSite/Host/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.1174s ]
+SQL: SHOW COLUMNS FROM `host` [ RunTime:0.0077s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `host` WHERE `isdel` = 0 AND `computer_name` LIKE '%%' LIMIT 1   [ RunTime:0.0268s ]
+SQL: SELECT * FROM `host` WHERE `isdel` = 0 AND `computer_name` LIKE '%%' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined variable: num D:\project\php\website\Application\Runtime\Cache\WebSite\38bd9da2d4fd4456fc92f42618aed02f.php 第 122 行.
+NOTIC: [8] Undefined variable: num D:\project\php\website\Application\Runtime\Cache\WebSite\38bd9da2d4fd4456fc92f42618aed02f.php 第 122 行.
+NOTIC: [8] Undefined variable: num D:\project\php\website\Application\Runtime\Cache\WebSite\38bd9da2d4fd4456fc92f42618aed02f.php 第 122 行.
+NOTIC: [8] Undefined variable: num D:\project\php\website\Application\Runtime\Cache\WebSite\38bd9da2d4fd4456fc92f42618aed02f.php 第 122 行.
+NOTIC: [8] Undefined variable: num D:\project\php\website\Application\Runtime\Cache\WebSite\38bd9da2d4fd4456fc92f42618aed02f.php 第 122 行.
+NOTIC: [8] Undefined variable: num D:\project\php\website\Application\Runtime\Cache\WebSite\38bd9da2d4fd4456fc92f42618aed02f.php 第 122 行.
+NOTIC: [8] Undefined variable: num D:\project\php\website\Application\Runtime\Cache\WebSite\38bd9da2d4fd4456fc92f42618aed02f.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2016-11-03T21:03:19+08:00 ] 127.0.0.1 /WebSite/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2016-11-03T21:03:19+08:00 ] 127.0.0.1 /WebSite/Login/lib/bootstrap/js/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+ERR: 非法操作:lib
+
+[ 2016-11-03T21:03:22+08:00 ] 127.0.0.1 /WebSite/Login/loginsubmit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admin'  [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-11-03T21:03:24+08:00 ] 127.0.0.1 /WebSite/Host/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `host` [ RunTime:0.0085s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `host` WHERE `isdel` = 0 AND `computer_name` LIKE '%%' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `host` WHERE `isdel` = 0 AND `computer_name` LIKE '%%' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined variable: num D:\project\php\website\Application\Runtime\Cache\WebSite\38bd9da2d4fd4456fc92f42618aed02f.php 第 122 行.
+NOTIC: [8] Undefined variable: num D:\project\php\website\Application\Runtime\Cache\WebSite\38bd9da2d4fd4456fc92f42618aed02f.php 第 122 行.
+NOTIC: [8] Undefined variable: num D:\project\php\website\Application\Runtime\Cache\WebSite\38bd9da2d4fd4456fc92f42618aed02f.php 第 122 行.
+NOTIC: [8] Undefined variable: num D:\project\php\website\Application\Runtime\Cache\WebSite\38bd9da2d4fd4456fc92f42618aed02f.php 第 122 行.
+NOTIC: [8] Undefined variable: num D:\project\php\website\Application\Runtime\Cache\WebSite\38bd9da2d4fd4456fc92f42618aed02f.php 第 122 行.
+NOTIC: [8] Undefined variable: num D:\project\php\website\Application\Runtime\Cache\WebSite\38bd9da2d4fd4456fc92f42618aed02f.php 第 122 行.
+NOTIC: [8] Undefined variable: num D:\project\php\website\Application\Runtime\Cache\WebSite\38bd9da2d4fd4456fc92f42618aed02f.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2016-11-03T21:03:27+08:00 ] 127.0.0.1 /WebSite/Host/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 139 行.
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 143 行.
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 147 行.
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 151 行.
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 155 行.
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 159 行.
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 163 行.
+NOTIC: [8] Undefined variable: id D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2016-11-03T21:03:42+08:00 ] 127.0.0.1 /WebSite/Host/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0037s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 139 行.
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 143 行.
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 147 行.
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 151 行.
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 155 行.
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 159 行.
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 163 行.
+NOTIC: [8] Undefined variable: id D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2016-11-03T21:04:24+08:00 ] 127.0.0.1 /WebSite/Host/insert.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `host` [ RunTime:0.0082s ]
+SQL: INSERT INTO `host` (`computer_name`,`host_addr`,`server_name`,`website_name`,`host_name`,`port`,`file_name`,`create_time`) VALUES ('联想idea700 I700-17','','nginx','sjnk','192,168.1.111','4003','sjnk.conf','2016-11-03 21:04:24') [ RunTime:0.1643s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2016-11-03T21:04:26+08:00 ] 127.0.0.1 /WebSite/Host/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 139 行.
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 143 行.
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 147 行.
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 151 行.
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 155 行.
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 159 行.
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 163 行.
+NOTIC: [8] Undefined variable: id D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2016-11-03T21:05:20+08:00 ] 127.0.0.1 /WebSite/Host/insert.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `host` [ RunTime:0.0087s ]
+SQL: INSERT INTO `host` (`computer_name`,`host_addr`,`server_name`,`website_name`,`host_name`,`port`,`file_name`,`create_time`) VALUES ('联想idea700 I700-17','','nginx','e-metals','e-metals.siburuxue.com','','emetals.conf','2016-11-03 21:05:20') [ RunTime:0.1500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2016-11-03T21:05:23+08:00 ] 127.0.0.1 /WebSite/Host/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0303s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 139 行.
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 143 行.
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 147 行.
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 151 行.
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 155 行.
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 159 行.
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 163 行.
+NOTIC: [8] Undefined variable: id D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2016-11-03T21:05:26+08:00 ] 127.0.0.1 /WebSite/Host/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 139 行.
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 143 行.
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 147 行.
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 151 行.
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 155 行.
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 159 行.
+NOTIC: [8] Undefined variable: info D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 163 行.
+NOTIC: [8] Undefined variable: id D:\project\php\website\Application\Runtime\Cache\WebSite\a218035fccfef6631d24bb5c930ec5d1.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2016-11-03T21:05:29+08:00 ] 127.0.0.1 /WebSite/Host/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `host` [ RunTime:0.0081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `host` WHERE `isdel` = 0 AND `computer_name` LIKE '%%' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `host` WHERE `isdel` = 0 AND `computer_name` LIKE '%%' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined variable: num D:\project\php\website\Application\Runtime\Cache\WebSite\38bd9da2d4fd4456fc92f42618aed02f.php 第 122 行.
+NOTIC: [8] Undefined variable: num D:\project\php\website\Application\Runtime\Cache\WebSite\38bd9da2d4fd4456fc92f42618aed02f.php 第 122 行.
+NOTIC: [8] Undefined variable: num D:\project\php\website\Application\Runtime\Cache\WebSite\38bd9da2d4fd4456fc92f42618aed02f.php 第 122 行.
+NOTIC: [8] Undefined variable: num D:\project\php\website\Application\Runtime\Cache\WebSite\38bd9da2d4fd4456fc92f42618aed02f.php 第 122 行.
+NOTIC: [8] Undefined variable: num D:\project\php\website\Application\Runtime\Cache\WebSite\38bd9da2d4fd4456fc92f42618aed02f.php 第 122 行.
+NOTIC: [8] Undefined variable: num D:\project\php\website\Application\Runtime\Cache\WebSite\38bd9da2d4fd4456fc92f42618aed02f.php 第 122 行.
+NOTIC: [8] Undefined variable: num D:\project\php\website\Application\Runtime\Cache\WebSite\38bd9da2d4fd4456fc92f42618aed02f.php 第 122 行.
+NOTIC: [8] Undefined variable: num D:\project\php\website\Application\Runtime\Cache\WebSite\38bd9da2d4fd4456fc92f42618aed02f.php 第 122 行.
+NOTIC: [8] Undefined variable: num D:\project\php\website\Application\Runtime\Cache\WebSite\38bd9da2d4fd4456fc92f42618aed02f.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+

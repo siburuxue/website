@@ -1,0 +1,19 @@
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <ul class="nav pull-right" id="userinfo">
+                    <li id="fat-menu" class="dropdown">
+                        <a href="" id="drop3" role="button" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="icon-user"></i><?php echo $_SESSION['username']; ?>
+                            <i class="icon-caret-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/WebSite/Login/logout"><span class="iconfa-off"></span> 退出登录</a></li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+                <a class="brand" href="index.html"><span class="first">WebSite</span> <span class="second">后台管理系统</span></a>
+            </div>
+        </div>
+    </div>

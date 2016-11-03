@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<include file="./Application/WebSite/View/include.html" />
+	<script type="text/javascript">
+	$(function(){
+		$('#save').click(function(){
+			if($('#computer_name').val().trim() == ""){
+				alert("请输入电脑主机名称");
+				$('#computer_name').focus();
+				return false;
+			}
+			if($('#server_name').val().trim() == ""){
+				alert("请输入服务器名称");
+				$('#server_name').focus();
+				return false;
+			}
+			if($('#website_name').val().trim() == ""){
+				alert("请输入网站名称");
+				$('#website_name').focus();
+				return false;
+			}
+			if($('#host_name').val().trim() == ""){
+				alert("请输入主机名");
+				$('#host_name').focus();
+				return false;
+			}
+			if($('#id').val() == ""){
+				document.forms[0].action = "{:U('insert')}";
+			}else{
+				document.forms[0].action = "{:U('update')}";
+			}
+			document.forms[0].submit();
+		});
+		$('#back').click(function(){
+			document.forms[0].action = "{:U('index')}";
+			document.forms[0].submit();
+		});
+	});
+	</script>
+</head>
+<body> 
+	<form class="stdform stdform2" method="post" >
+		<include file="./Application/WebSite/View/header.html" />
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<include file="./Application/WebSite/View/left.html" />
+				<div class="span10">
+					<h1 class="page-title">{$title}
+						<div class="btn-toolbar" style="float:right">
+							<input type="reset" class="btn" value="重置" id="reset">
+							<input type="button" id="save" class="btn btn-primary" value="保存">
+							<a href="javascript:void(0)" data-toggle="modal" class="btn" onClick="history.go(-1)">返回</a>
+						</div>
+					</h1>
+				
+					<div class="well">
+						<div id="myTabContent" class="tab-content">
+							<div class="tab-pane active" id="home">
+								<label>电脑主机名称</label>
+								<span class="field">
+									<input type="text" autocomplete="off" name="computer_name" id="computer_name" class="input-xxlarge" value="{$info['computer_name']}" />
+								</span>
+								<label>电脑主机地址</label>
+								<span class="field">
+									<input type="text" autocomplete="off" name="host_addr" id="host_addr" class="input-xxlarge" value="{$info['host_addr']}" />
+								</span>
+								<label>服务器名称</label>
+								<span class="field">
+									<input type="text" autocomplete="off" name="server_name" id="server_name" class="input-xxlarge" value="{$info['server_name']}" />
+								</span>
+								<label>网站名称</label>
+								<span class="field">
+									<input type="text" autocomplete="off" name="website_name" id="website_name" class="input-xxlarge" value="{$info['website_name']}" />
+								</span>
+								<label>主机名</label>
+								<span class="field">
+									<input type="text" autocomplete="off" name="host_name" id="host_name" class="input-xxlarge" value="{$info['host_name']}" />
+								</span>
+								<label>绑定端口</label>
+								<span class="field">
+									<input type="text" autocomplete="off" name="port" id="port" class="input-xxlarge" value="{$info['port']}" />
+								</span>
+								<label>配置文件名</label>
+								<span class="field">
+									<input type="text" autocomplete="off" name="file_name" id="file_name" class="input-xxlarge" value="{$info['file_name']}" />
+								</span>
+								<input type="hidden" id="id" name="id" value="{$id}">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<input type='hidden' id='hid_url' value='/WebSite/Host/index'>
+			<include file="./Application/WebSite/View/footer.html" />
+		</div>
+	</form>
+</body>
+</html>
+
+
